@@ -42,6 +42,15 @@ namespace BW_W3_D5_ProgettoEcommerce
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
+        /// Controllo Button2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button2;
+
+        /// <summary>
         /// Controllo addedMessage.
         /// </summary>
         /// <remarks>

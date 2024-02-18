@@ -27,12 +27,14 @@ namespace BW_W3_D5_ProgettoEcommerce
                     // Creo questa stringa in template literal che sfrutta i dati dei prodotti nella lista per popolare vari attributi/InnerText
                     string newCard = $@"
                         <div class='col'>
-                                 <div class='card'>
+                                 <div class='card h-100 shadow bg-dark'>
                                      <img src='{item.ImmagineUrl}' class='card-img-top' height=194 width=194>
-                                     <div class='card-body'>
+                                     <div class='card-body text-center'>
                                        <h5 class='card-title'>{item.Nome}</h5>
-                                         <a href='Dettaglio.aspx?id={item.Id}' class='btn btn-primary mt-3'>Vai ai Dettagli</a>
                                      </div>
+                                        <div class='card-footer text-center'>
+                                         <a href='Dettaglio.aspx?id={item.Id}' class='btn btn-outline-warning mt-3'>Vai ai Dettagli</a>
+                                         </div>
                                 </div>
                             </div>";
                     // appendo il template literal appena creato all'elemento nella pagina aspx con id itemsBox, che chiaramente si ripeterà per ogni prodotto presente nella lista

@@ -50,6 +50,7 @@ namespace BW_W3_D5_ProgettoEcommerce
                         // e ritorno alla pagina principale dopo 5 secondi
                         Response.AddHeader("REFRESH", "5;URL=Default.aspx");
                         Button1.Visible = false;
+                        Button2.Visible = false;
                     }
                 }
                 else
@@ -58,6 +59,7 @@ namespace BW_W3_D5_ProgettoEcommerce
                     itemTitle.InnerText = "ID non specificato.";
                     Response.AddHeader("REFRESH", "5;URL=Default.aspx");
                     Button1.Visible = false;
+                    Button2.Visible = false;
                 }
             }
         }
@@ -92,18 +94,13 @@ namespace BW_W3_D5_ProgettoEcommerce
                 prodotto.Quantita += 1;
                 Session["Cart"] = cart;
             }
-
-
-            //if (prodotto != null)
-            //{
-            //    // aggiungiamo il prodotto alla lista, e quindi alla sessione
-            //    cart.Add(prodotto);
-            //    prodotto.Quantita += 1;
-            //    Session["Cart"] = cart;
-            //}
-
             // Messaggio di conferma che riempie il paragrafo con id message
             addedMessage.InnerText = "Prodotto aggiunto al carrello!";
+        }
+        protected void goToCart_Click(object sender, EventArgs e)
+        {
+            // reindirizzamento alla pagina del carrello
+            Response.Redirect("Carrello.aspx");
         }
     }
 }

@@ -5,7 +5,7 @@
     <main>
     
  <div class="container">
-    <div id="itemsBox" class="row row-cols-xxl-6 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-3" runat="server">
+    <div id="itemsBox" class="row row-cols-xxl-6 row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-3" runat="server">
   </div>
 </div>
     </main>
