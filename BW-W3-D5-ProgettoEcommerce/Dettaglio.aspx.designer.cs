@@ -15,15 +15,6 @@ namespace BW_W3_D5_ProgettoEcommerce
     {
 
         /// <summary>
-        /// Controllo form1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
         /// Controllo itemTitle.
         /// </summary>
         /// <remarks>
@@ -42,12 +33,21 @@ namespace BW_W3_D5_ProgettoEcommerce
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl detailsBox;
 
         /// <summary>
-        /// Controllo message.
+        /// Controllo Button1.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl message;
+        protected global::System.Web.UI.WebControls.Button Button1;
+
+        /// <summary>
+        /// Controllo addedMessage.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl addedMessage;
     }
 }
